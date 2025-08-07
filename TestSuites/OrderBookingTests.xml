@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "/Users/sulekhamali/Downloads/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="SulekhaMaliPractice.SeleniumFramework.TestComponents.ListenersTests"/>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="SulekhaMaliPractice.SeleniumFramework.Tests.OrderBookingTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
