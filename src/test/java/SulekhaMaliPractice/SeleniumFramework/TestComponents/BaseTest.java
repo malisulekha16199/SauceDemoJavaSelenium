@@ -32,7 +32,7 @@ public class BaseTest {
 		Properties prop=new Properties();
 		FileInputStream fis= new FileInputStream(System.getProperty("user.dir")+"//src//main//java//SulekhaMaliPractice//SeleniumFramework//Resources//GlobalData.properties");
 		prop.load(fis);
-		String browsername=System.getProperty("browser")!=""? System.getProperty("browser"): prop.getProperty("browser");
+		String browsername=System.getProperty("browser")!=null? System.getProperty("browser"): prop.getProperty("browser");
 		strURL=prop.getProperty("url");
 		
 		if (browsername.equals("chrome")){
