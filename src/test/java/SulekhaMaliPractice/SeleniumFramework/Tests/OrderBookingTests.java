@@ -1,8 +1,10 @@
 package SulekhaMaliPractice.SeleniumFramework.Tests;
 
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import java.io.IOException;
+
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+
 import SulekhaMaliPractice.SeleniumFramework.PageObjects.CartItemsPage;
 import SulekhaMaliPractice.SeleniumFramework.PageObjects.OrderDetailsPage;
 import SulekhaMaliPractice.SeleniumFramework.PageObjects.ProductsPage;
