@@ -1,8 +1,8 @@
 package SulekhaMaliPractice.SeleniumFramework.Tests;
 
 import org.testng.annotations.Test;
-
-
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.AssertJUnit;
 import java.io.IOException;
 
@@ -46,7 +46,8 @@ public class ErrorValidations  extends BaseTest{
 		CartItemsPage cartItemPg= prodPg.goTocart();
 		
 		//CartItemPage
-		cartItemPg.verifyItemAddedToCart(strProductname1);
+		WebElement eleCartItem=cartItemPg.verifyItemAddedToCart(strProductname1);
+		Assert.assertNotNull(eleCartItem, "Product was not found in the cart!");
 		OrderDetailsPage orderDetailsPg=cartItemPg.clickCheckout();
 		
 		//OrderDetailsPage

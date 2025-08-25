@@ -1,49 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-18T00:29:14 IST" name="Default suite" finished-at="2025-08-18T00:29:33 IST" duration-ms="19388">
+  <suite started-at="2025-08-25T23:32:24 IST" name="Default suite" finished-at="2025-08-25T23:32:32 IST" duration-ms="7917">
     <groups>
     </groups>
-    <test started-at="2025-08-18T00:29:14 IST" name="Default test" finished-at="2025-08-18T00:29:33 IST" duration-ms="19388">
-      <class name="SulekhaMaliPractice.SeleniumFramework.Tests.OrderBookingTests">
-        <test-method is-config="true" signature="LaunchApp()[pri:0, instance:SulekhaMaliPractice.SeleniumFramework.Tests.OrderBookingTests@32eff876]" started-at="2025-08-18T00:29:14 IST" name="LaunchApp" finished-at="2025-08-18T00:29:21 IST" duration-ms="7439" status="PASS">
+    <test started-at="2025-08-25T23:32:24 IST" name="Default test" finished-at="2025-08-25T23:32:32 IST" duration-ms="7917">
+      <class name="SulekhaMaliPractice.SeleniumFramework.Tests.ErrorValidations">
+        <test-method is-config="true" signature="LaunchApp()[pri:0, instance:SulekhaMaliPractice.SeleniumFramework.Tests.ErrorValidations@158da8e]" started-at="2025-08-25T23:32:24 IST" name="LaunchApp" finished-at="2025-08-25T23:32:27 IST" duration-ms="3095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApp -->
-        <test-method signature="verifyMultipleOrderBooking()[pri:0, instance:SulekhaMaliPractice.SeleniumFramework.Tests.OrderBookingTests@32eff876]" started-at="2025-08-18T00:29:21 IST" name="verifyMultipleOrderBooking" finished-at="2025-08-18T00:29:23 IST" duration-ms="2383" status="PASS">
+        <test-method signature="verifyFillingAllDetails()[pri:0, instance:SulekhaMaliPractice.SeleniumFramework.Tests.ErrorValidations@158da8e]" started-at="2025-08-25T23:32:27 IST" name="verifyFillingAllDetails" finished-at="2025-08-25T23:32:28 IST" duration-ms="1037" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyMultipleOrderBooking -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SulekhaMaliPractice.SeleniumFramework.Tests.OrderBookingTests@32eff876]" started-at="2025-08-18T00:29:23 IST" name="closeDriver" finished-at="2025-08-18T00:29:24 IST" duration-ms="412" status="PASS">
+        </test-method> <!-- verifyFillingAllDetails -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SulekhaMaliPractice.SeleniumFramework.Tests.ErrorValidations@158da8e]" started-at="2025-08-25T23:32:28 IST" name="closeDriver" finished-at="2025-08-25T23:32:29 IST" duration-ms="417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="LaunchApp()[pri:0, instance:SulekhaMaliPractice.SeleniumFramework.Tests.OrderBookingTests@32eff876]" started-at="2025-08-18T00:29:24 IST" name="LaunchApp" finished-at="2025-08-18T00:29:26 IST" duration-ms="2533" status="PASS">
+        <test-method is-config="true" signature="LaunchApp()[pri:0, instance:SulekhaMaliPractice.SeleniumFramework.Tests.ErrorValidations@158da8e]" started-at="2025-08-25T23:32:29 IST" name="LaunchApp" finished-at="2025-08-25T23:32:32 IST" duration-ms="2778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApp -->
-        <test-method signature="verifyOrderBooking()[pri:0, instance:SulekhaMaliPractice.SeleniumFramework.Tests.OrderBookingTests@32eff876]" started-at="2025-08-18T00:29:26 IST" name="verifyOrderBooking" finished-at="2025-08-18T00:29:28 IST" duration-ms="1660" status="PASS">
+        <test-method signature="verifyInvalidLogin()[pri:0, instance:SulekhaMaliPractice.SeleniumFramework.Tests.ErrorValidations@158da8e]" started-at="2025-08-25T23:32:32 IST" name="verifyInvalidLogin" finished-at="2025-08-25T23:32:32 IST" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyOrderBooking -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SulekhaMaliPractice.SeleniumFramework.Tests.OrderBookingTests@32eff876]" started-at="2025-08-18T00:29:28 IST" name="closeDriver" finished-at="2025-08-18T00:29:28 IST" duration-ms="408" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="LaunchApp()[pri:0, instance:SulekhaMaliPractice.SeleniumFramework.Tests.OrderBookingTests@32eff876]" started-at="2025-08-18T00:29:28 IST" name="LaunchApp" finished-at="2025-08-18T00:29:32 IST" duration-ms="3178" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchApp -->
-        <test-method signature="verifyShoppingBadgeIconChange()[pri:0, instance:SulekhaMaliPractice.SeleniumFramework.Tests.OrderBookingTests@32eff876]" started-at="2025-08-18T00:29:32 IST" name="verifyShoppingBadgeIconChange" finished-at="2025-08-18T00:29:33 IST" duration-ms="892" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyShoppingBadgeIconChange -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SulekhaMaliPractice.SeleniumFramework.Tests.OrderBookingTests@32eff876]" started-at="2025-08-18T00:29:33 IST" name="closeDriver" finished-at="2025-08-18T00:29:33 IST" duration-ms="464" status="PASS">
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SulekhaMaliPractice.SeleniumFramework.Tests.ErrorValidations@158da8e]" started-at="2025-08-25T23:32:32 IST" name="closeDriver" finished-at="2025-08-25T23:32:32 IST" duration-ms="402" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- SulekhaMaliPractice.SeleniumFramework.Tests.OrderBookingTests -->
+      </class> <!-- SulekhaMaliPractice.SeleniumFramework.Tests.ErrorValidations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

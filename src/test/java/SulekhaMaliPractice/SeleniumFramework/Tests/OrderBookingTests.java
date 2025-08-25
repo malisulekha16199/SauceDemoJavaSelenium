@@ -2,6 +2,7 @@ package SulekhaMaliPractice.SeleniumFramework.Tests;
 
 import java.io.IOException;
 
+import org.testng.Assert;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
@@ -22,7 +23,7 @@ public class OrderBookingTests  extends BaseTest {
 		String strLastName="Mali";
 		String strUserName="Sulekha";
 		String strPin="421202";
-	
+		String strActualMsg="Thank you for your order!";
 		
 		//LoginPage	
 		ProductsPage prodPg=loginPg.LoginApplication(strUsername, strPassword);
@@ -50,7 +51,8 @@ public class OrderBookingTests  extends BaseTest {
 		
 		
 		//ThankYouPage
-		thnkYouMsg.VerifyThankYouMsg();
+		String strSuccessMsg=thnkYouMsg.VerifyThankYouMsg();
+		Assert.assertEquals(strActualMsg, strSuccessMsg);
 	
 		
 	}
@@ -63,6 +65,7 @@ public class OrderBookingTests  extends BaseTest {
 		String strLastName="Mali";
 		String strUserName="Sulekha";
 		String strPin="421202";
+		String strActualMsg="Thank you for your order!";
 	
 		//LoginPage
 		ProductsPage prodPg=loginPg.LoginApplication(strUsername, strPassword);
@@ -86,7 +89,8 @@ public class OrderBookingTests  extends BaseTest {
 		ThankYouPage thnkYouMsg=cartItemPg.clickFinish();
 			
 		//ThankYouPage
-		thnkYouMsg.VerifyThankYouMsg();
+		String strSuccessMsg=thnkYouMsg.VerifyThankYouMsg();
+		Assert.assertEquals(strActualMsg, strSuccessMsg);
 	
 		
 	}
